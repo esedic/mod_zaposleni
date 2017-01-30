@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fieldset name="fieldset" label="Zaposleni">
+		<field 
+			name="ime" 
+			type="text" 
+			default="" 
+			label="Ime" 
+			description="" 
+			size="10"
+		/>
+		<field 
+			name="delovnomesto" 
+			type="text" 
+			default="" 
+			label="Delovno mesto" 
+			description="" 
+			size="10"
+		/>
+        <field 
+            name="slika" 
+            type="media" 
+            directory="images/zaposleni"
+            label="slika" 
+            description=""
+        />
+    </fieldset>
+</form>
